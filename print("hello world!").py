@@ -1,0 +1,1 @@
+print("string \"literally\" consist of characters")

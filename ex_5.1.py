@@ -1,0 +1,7 @@
+string_a = input("type in 4 words under the same theme seperating with commas eg. fruits\n")
+list_a = string_a.split(",")
+string_b = input("now type in one more word under this theme\n")
+list_a.insert(0,string_b)
+print('\n'*100)
+guess = input("now guess what's inside the list\n")
+print(guess in list_a)
